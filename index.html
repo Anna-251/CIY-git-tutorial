@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My First Webpage</title>
+  <style>
+    *{
+      margin:0;
+      box-sizing:border-box;
+    }
+    img{
+      width:480px;
+    }
+  .new-arrival{
+    background-color: blue;
+    color: bisque;
+    border-width:10px ;
+    border-style:solid ;
+    border-color:red ;
+    width:720px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .popular-title{
+    color:blue;
+    font-size:  20px;
+  }
+  section{
+    text-align: center;
+  }
+  main{
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .flexbox-container{
+    display: flex;
+   /* flex-direction:column;*/
+   flex-wrap:wrap;
+  }
+  .flexbox-container div{
+    border:1px solid black;
+    background-color: red;
+    color:white;
+    width: 200px;
+    height: 200px;
+  }
+  </style>
+</head>
+
+<body>
+  <header>Header</header>
+  <img src="/images/wall.jpg" alt="wall"/>
+  <main>
+    <section >
+      <h1 class="popular-title">Popular Products</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, sed?
+      </p>
+    </section>
+
+    <section class="new-arrival">
+      <h2>New Arrivals</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, adipisci.
+      </p>
+    </section>
+    <section>
+      <h2>Title</h2>
+      <p><span>Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </section>
+    <!--Flexbox-->
+    <section class="flexbox-container">
+     <div>1</div>
+     <div>2</div>
+     <div>3</div>
+     <div>4</div>
+     <div>5</div>
+     <div>6</div>
+     <div>7</div>
+     <div>8</div>
+     <div>9</div>
+    </section>
+  </main>
+  <footer>footer</footer>
+</body>
+
+</html>
